@@ -1,0 +1,618 @@
+:root{
+    --text-default: #000
+    --font-GENERAL: GeneralSans
+    --background-primary: #000
+    --text-default: #000
+    --text-white: #white
+   
+}
+
+
+@font-face {
+    font-family: 'GeneralSans';
+    src: url('../fonts/GeneralSans-Variable.woff2') format('woff2'),
+         url('../fonts/GeneralSans-Variable.woff') format('woff'),
+         url('../fonts/GeneralSans-Variable.ttf') format('truetype');
+         font-weight: 200 700;
+         font-display: swap;
+         font-style: normal;
+  }
+
+* { box-sizing: border-box;
+    text-decoration: none;
+}
+ 
+main{  
+    margin: 80px;
+}
+
+.link{
+    color: black;
+    font-weight: 400;
+}
+.head{
+    font-family:GeneralSans ;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 1px solid  black;
+    padding-bottom:16px
+}
+
+.logo{
+    width: 400px;
+}
+
+.headright{
+    font-family: GeneralSans;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 50px;
+    flex: 100;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+
+    
+}
+
+.headtext1{
+    display: flex;
+    flex-direction: row;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    gap: 24px;
+    
+}
+.line{
+    font-family: GeneralSans;
+    font-weight: 400;
+    font-size: 30px;
+}
+.icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+
+.pic1{
+    width: 100%;
+    padding: 30px 0px 30px 0px
+}
+
+.ticker{
+    font-family: GeneralSans;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+    gap: 24px;
+}
+.p1{
+    color:white;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    margin: 0px;
+    
+}
+.h1-1{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+    gap: 24px;
+    
+}
+
+.h1-1-1{
+    margin: 0px;
+}
+
+.text{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: GeneralSans;
+    gap: 65px;
+}
+
+h2{
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 50px 0px ;
+    width: 100%;
+    
+}
+
+.t-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 50px 0px ;
+}
+.text0{
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%;
+}
+.text1 {
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400; 
+    gap: 20px;
+    align-content: space-around;
+    justify-content: space-between;
+}
+
+.sub-text1{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
+}
+.sub-text2{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.L1{
+    display: flex;
+    padding: 10px 30px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 100px;
+    border: 1px solid black;
+    text-transform: uppercase;
+   
+
+}
+.bold{
+    font-weight: 600;
+}
+
+.pic2{
+    width: 100%;
+    height: 100%;
+    padding:0px ;
+}
+
+.sec-sub1{
+    font-family: GeneralSans;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid  black;
+    padding-bottom: 50px; 
+    padding-top: 50px;
+}
+.img-1{
+    width: auto;
+    height: 400px;
+    margin-right: 45px;
+}
+.sub2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.sub2-1{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 110px;
+}
+
+.h3{
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    margin: 0px;
+}
+.sub3{
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%;
+}
+
+.subtitles{
+    display: flex;
+    flex-direction: column;
+}
+.subtitle2{
+    font-family: GeneralSans;
+    display: flex;
+    flex-direction: row;
+}
+
+.subtitle2-1{
+    width: 4700px;
+    margin-right:150px;
+}
+.subtitle2-2{
+    display: flex;
+    flex-direction: column;
+    font-family: GeneralSans;
+    margin-top: 50px;
+    gap: 48px;
+}
+
+.sub2-2-1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+
+.print{
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.date1{
+    font-family: GeneralSans;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%
+}
+
+.mag{
+    font-family: GeneralSans;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.img2{
+    background: none;
+    height: 520px;
+    flex-shrink: 0;
+}
+
+.f1{
+    font-family: GeneralSans;
+    font-size: 96.863px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%; 
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+}
+.bt1{
+    background-color: black;
+    display: flex;
+    height: 50px;
+    padding: 4px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: white;
+}
+.sub-2-2-2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    align-self: stretch;
+}
+.most{
+    font-family: GeneralSans;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.one{
+    font-family: GeneralSans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 120%;
+}
+
+.sub222-1{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    align-items: flex-start;
+    margin-top: 20px;
+    border-bottom: 3px solid black;
+}
+.interior{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    flex: 1 0 0;
+}
+h4{
+    font-family: GeneralSans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    margin-top: 0px;
+}
+.sub-text3{
+    display: flex;
+    flex-direction: row;
+    font-size:30px;
+    gap: 10px;
+}
+.sub2-2-3{
+    display: flex;
+    padding: 30px;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+    background-color: rgb(223, 223, 223);
+}
+.new{
+    color: #000;
+    font-family: GeneralSans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.h3-1{
+    font-family: GeneralSans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    margin: 50px;
+}
+.email-button{
+    font-family: GeneralSans;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: flex-end;
+    width: 100%;
+}
+.email{
+    font-size:25px;
+    width: 100%;
+    height: 50px;
+}
+.button{
+    padding:10px 30px;
+    color: white;
+    font-size: 15px;
+    background-color: #000;
+}
+.subtitle2-3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    padding-top: 20px;
+}
+.all{
+    font-family: GeneralSans;
+    font-size: 30px;
+    font-style: normal;
+    font-weight:600;
+    line-height: normal;
+    background-color: white;
+    border-width: 0px;
+}
+.subtitle3{
+    display: flex;
+    flex-direction: column;
+    margin:  50px 0px;
+}
+
+.subtitle3-1{
+    font-family: GeneralSans;
+    display: flex;
+    flex-direction: row;
+    border-top: 1px solid #000;
+    margin-top: 100px ;
+    justify-content: space-between;
+}
+.h2-1{
+    font-size: 150px;
+    font-style: normal;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 50px 0px 50px ;
+    width: auto
+}
+.subtitle3-2{
+    font-family: GeneralSans;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #000;
+    width:calc(100%/3);
+    align-items: center;
+   
+}
+.img4{
+    padding: 50px;
+    width: 100%
+}
+
+.sub3-2-1{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    padding: 0px 50px;
+}
+
+.sub3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 0px
+    ;
+}
+
+.t4{
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+}
+
+.mainsub4{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 200px;
+    
+}
+.subtitle4{
+    display: flex;
+    flex-direction: column;
+    width: calc(100%/2);
+}
+
+.sub4{
+    font-family: GeneralSans;
+    display: flex;
+    flex-direction: row;
+    padding: 50px 150px;
+    border: 1px solid #000;
+    gap: 50px 
+    ;
+}
+.img5{
+    width: 250px;
+    height: 250px;
+    flex-shrink: 0; 
+    border-radius: 150px;
+}
+
+.foot{
+    background-color: black;
+    font-family: GeneralSans;
+    color: white;
+    padding-bottom: 25px;
+}
+.sec1{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 50px;
+}
+
+.newslet{
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight:500; 
+}
+
+.sec2{
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+    align-items: center;
+    
+}
+.email-button2{
+    font-family: GeneralSans;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: flex-end;
+    width: 500px;
+    height: 75px;
+    margin-left: 350px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.email2{
+    font-size:25px;
+    width: 400px;
+    height: 60px;
+}
+
+.button2{
+    font-family: GeneralSans;
+    padding:5px 20px;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    font-weight: 600;
+}
+.h2-2{
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 50px 0px ;
+    width: 50%;
+}
+
+.sec3{
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+    gap: 200px;
+
+}
+.sec3-1{
+    font-family: GeneralSans;
+    font-size: 25px;  
+    display: flex;
+    flex-direction:row;
+    gap: 450px;
+    color: white;
+    font-weight: 300;
+}
+.sec3-1-2{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-top: 25px;
+}
+.logo2{
+    display: flex;
+    width: 400px;
+    margin-top: -150px;
+}
+
+.link2{
+    color: white;
+
+}
+.sec4{
+    display: flex;
+    flex-direction: row;
+    font-family: GeneralSans;
+    color: white;
+    margin: 150px 50px 25px;   
+    justify-content: space-between;
+}
+.made{
+    font-size: 20px;
+}
+.icon-w{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    
+}
